@@ -1,3 +1,12 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
 <?php
     $nom_utilisateur = $_POST["nom_utilisateur"];
     $mot_de_passe = $_POST["mot_de_passe"];
@@ -18,3 +27,7 @@
     }
 
 ?>
+
+
+</body>
+</html>
