@@ -14,8 +14,10 @@
     </form>
 
     <?php
-        echo "<h2>" . $_GET['message'] . "</h2>";
+        if (isset($_GET['message'])) {
+            echo "<h2>" . $_GET['message'] . "</h2>";
+        }
     ?>
-    
+
 </body>
 </html>

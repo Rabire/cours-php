@@ -28,6 +28,8 @@
 
 ?>
 
+<a href="login.php">Retour à la page de connexion</a>
+
 
 </body>
 </html>
